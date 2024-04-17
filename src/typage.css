@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(rgba(10, 160, 230, 0.1), rgba(10, 160, 230, 1.0));
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+img {
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.social-buttons {
+    display: flex;
+    justify-content: center;
+}
+.social-button {
+    margin: 0 10px;
+}
+.social-p {
+    margin-top: 10px;
+    color:rgba(0, 0, 0, 1);
+    font-size: 20px;
+}

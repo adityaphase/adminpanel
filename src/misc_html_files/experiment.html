@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datepicker Example</title>
+  <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Include jQuery UI -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#datepicker" ).datepicker({
+        dateFormat: 'yy-mm-dd',
+        onSelect: function(dateText) {
+          $('#dateField').val(dateText);
+        }
+      }).datepicker("show");
+    } );
+  </script>
+  <style>
+    .ui-datepicker {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="datepicker">
+  <label for="dateField">Selected date: </label>
+  <input type="date" id="dateField">
+</body>
+</html>
