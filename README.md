@@ -8,4 +8,5 @@ $password = "my_password";
 $dbdata = "property_manage";
 ```
 or adjust compose parameters as needed.<br>
-Exported database for MariaDB (xampp); may cause problems for MySQL on import with collation.
+Exported database for MariaDB (xampp); may cause problems for MySQL on import with collation.<br>
+Template: https://medialoot.com/item/lumino-admin-bootstrap-template/
